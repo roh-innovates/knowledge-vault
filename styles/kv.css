@@ -33,6 +33,11 @@ nav .center-items {
     color: black;
 }
 
+.ci-hov:hover {
+    cursor: pointer;
+    color: rgba(70, 145, 101, 1);
+    font-weight: 600;
+}
 nav button {
     font-size: 16px;
     font-weight: semibold;
@@ -42,4 +47,97 @@ nav button {
     height: 44px;
     border-radius: 4px;
     border: none;
+}
+
+
+
+/* Hero section */
+
+.hero-section {
+    /* display: flex;
+    justify-content: center; */
+    background-image: url('../assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-top {
+    display: flex;
+    justify-content: center;
+    padding-top: 135px;
+    padding-bottom: 32px;
+}
+.text-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1000px;
+    width: 229px;
+    height: 35px;
+}
+
+.gea {
+    font-size: 16px;
+    font-weight: medium;
+    color: #30B868;
+    margin-left: 8px;
+}
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    color: white;
+    width: 711px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 32px;
+
+}
+
+.not-just {
+    color: #30B868;
+}
+
+.hero-subtext {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 32px;
+    max-width: 700px;
+}
+
+.h-bottom-btn {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-bottom: 155px;
+}
+
+.hero-b-btn1 {
+    font-size: 16px;
+    font-weight: semibold;
+    color: white;
+    background-color: rgba(70, 145, 101, 1);
+    width: 251px;
+    height: 52px;
+    border-radius: 4px;
+    border: none;
+}
+
+.hero-b-btn2 {
+    font-size: 16px;
+    font-weight: semibold;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    width: 199px;
+    height: 52px;
+    border-radius: 4px;
+    border: white 1px solid;
 }
