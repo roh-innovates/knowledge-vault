@@ -131,6 +131,10 @@ nav button {
     border: none;
 }
 
+.hero-b-btn1 i {
+  margin-left: 12px;
+}
+
 .hero-b-btn2 {
     font-size: 16px;
     font-weight: semibold;
@@ -142,6 +146,9 @@ nav button {
     border: white 1px solid;
 }
 
+.hero-b-btn2 i {
+  margin-right: 12px;
+}
 
 
 /* Card section CSS */
@@ -230,6 +237,7 @@ nav button {
     align-items: center;
     gap: 60px;
     max-width: 1360px;
+    padding-bottom: 120px;
     
 }
 
@@ -273,3 +281,63 @@ nav button {
 .cheek3 {
     padding-bottom: 16px ;
 }
+
+
+
+/* Challenge Section CSS -------------------------------------------------------------------------------- */
+
+.challenge-section {
+    
+    padding-bottom: 120px;
+    
+}
+
+.challenge-div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #F7F6F2;
+    max-width: 1360px;
+    border-radius: 12px;
+}
+
+.clng-p1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: black ;
+    padding-top: 80px;
+}
+.clng-p2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382 ;
+    text-align: center;
+    padding-bottom: 24px;
+    padding-top: 16px;
+}
+
+.clng-p3 {
+     font-size: 16px;
+    font-weight: 400;
+    color: #627382 ;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 80px;
+}
+
+.clng-btn {
+    font-size: 16px;
+    font-weight: semibold;
+    color: white;
+    background-color: rgba(70, 145, 101, 1);
+    width: 194px;
+    height: 52px;
+    border-radius: 4px;
+    border: none;  
+}
+
+.clng-btn i {
+  margin-left: 16px;
+}
+
