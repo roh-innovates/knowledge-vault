@@ -141,3 +141,84 @@ nav button {
     border-radius: 4px;
     border: white 1px solid;
 }
+
+
+
+/* Card section CSS */
+
+.card-s-text {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.notes-fail {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+
+.not-bad {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-top: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    width: 322px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 8px 20px rgba(170, 167, 167, 0.12);
+    border-radius: 8px;
+
+}
+/* .card img {
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    
+    border-radius: ;
+} */
+
+.icon-box {
+  width: 60px;
+  height: 60px;
+
+  background: #F95555;       
+  border-radius: 50%;      
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto 10px;
+}
+
+.card h6 {
+    font-size: 24px;
+    font-weight: semibold;
+    padding: 16px 0;
+}
+
+.card p {
+    text-align: center;
+    margin: 0 24px;
+    color: #627382;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding-top: 48px;
+    padding-bottom: 120px;
+}
+
+.forgetting {
+    text-align: center;
+}
+
