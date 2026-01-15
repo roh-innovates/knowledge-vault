@@ -172,7 +172,7 @@ nav button {
     width: 322px;
     height: 300px;
     background-color: white;
-    box-shadow: 0 8px 20px rgba(170, 167, 167, 0.12);
+    box-shadow: 0 8px 20px rgba(148, 144, 144, 0.12);
     border-radius: 8px;
 
 }
@@ -187,21 +187,18 @@ nav button {
 .icon-box {
   width: 60px;
   height: 60px;
-
   background: #F95555;       
-  border-radius: 50%;      
-
+  border-radius: 50%;  
   display: flex;
   align-items: center;
   justify-content: center;
-
   margin: 0 auto 10px;
 }
 
 .card h6 {
     font-size: 24px;
     font-weight: semibold;
-    padding: 16px 0;
+    padding: 8px 0;
 }
 
 .card p {
@@ -213,7 +210,7 @@ nav button {
 .cards-container {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 24px;
     padding-top: 48px;
     padding-bottom: 120px;
 }
@@ -222,3 +219,57 @@ nav button {
     text-align: center;
 }
 
+
+
+/* Solution Section CSS */
+
+
+.solution-section {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 60px;
+    max-width: 1360px;
+    
+}
+
+.sol-left-part{
+    max-width: 600px;
+    max-height: 600px;
+}
+.sol-right-part {
+    display: flex;
+    flex-direction: column;
+}
+
+.sol-p1 {
+    font-size: 16px;
+    font-weight: medium;
+    color: #30B868 ;
+}
+.sol-p2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: black ;
+    padding: 16px 0;
+}
+.sol-p3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382 ;
+    padding-bottom: 40px;
+}
+.cheek {
+    display: flex;
+}
+
+.cheek p {
+    padding-left: 6px;
+}
+
+.cheek2 {
+    padding: 16px 0;
+}
+.cheek3 {
+    padding-bottom: 16px ;
+}
