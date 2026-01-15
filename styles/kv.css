@@ -49,6 +49,12 @@ nav button {
     border: none;
 }
 
+nav button:hover {
+    background-color: rgb(12, 76, 41); 
+    transform: translateY(-2px);       
+    box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+}
+
 
 
 /* Hero section */
@@ -131,6 +137,12 @@ nav button {
     border: none;
 }
 
+.hero-b-btn1:hover {
+    background-color: rgb(12, 76, 41);
+    transform: translateY(-2px);     
+    box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+}
+
 .hero-b-btn1 i {
   margin-left: 12px;
 }
@@ -146,12 +158,17 @@ nav button {
     border: white 1px solid;
 }
 
+.hero-b-btn2:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
 .hero-b-btn2 i {
   margin-right: 12px;
 }
 
 
-/* Card section CSS */
+/* Card section CSS ---------------------------------------------------------------------------------------------------------- */
 
 .card-s-text {
     text-align: center;
@@ -183,13 +200,11 @@ nav button {
     border-radius: 8px;
 
 }
-/* .card img {
-    background-color: #F95555;
-    width: 60px;
-    height: 60px;
-    
-    border-radius: ;
-} */
+
+.card:hover {
+    transform: translateY(-12px); 
+    box-shadow: 0 14px 32px rgba(148, 144, 144, 0.25);
+}
 
 .icon-box {
   width: 60px;
@@ -228,7 +243,7 @@ nav button {
 
 
 
-/* Solution Section CSS */
+/* Solution Section CSS-------------------------------------------------------------------------------------------- */
 
 
 .solution-section {
@@ -284,7 +299,7 @@ nav button {
 
 
 
-/* Challenge Section CSS -------------------------------------------------------------------------------- */
+/* Challenge Section CSS -------------------------------------------------------------------------------- #001931*/
 
 .challenge-section {
     
@@ -337,7 +352,58 @@ nav button {
     border: none;  
 }
 
+.clng-btn:hover {
+    background-color: rgb(12, 76, 41);
+    transform: translateY(-2px);   
+    box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+}
+
 .clng-btn i {
   margin-left: 16px;
 }
 
+
+
+/* Footer Section CSS ------------------------------------------------------------------------------------ */
+
+
+.divider {
+    width: 80%;
+    height: 1px;
+    background-color: #404244;
+    margin: 0 auto 32px;
+}
+.footer-section {
+    background-color: #001931;
+    padding-top: 120px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-bottom: 80px ;
+}
+
+
+.footer-p {
+    font-size: 20px;
+    font-weight: medium;
+    color: white ;
+    padding-bottom: 16px;
+}
+
+.mid-logo {
+    padding: 0 16px;
+}
+
+
+.copyright {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fafafa82 ;
+}
